@@ -1,3 +1,4 @@
 dist
 sass/stayles
 node_modules
+.vscode
