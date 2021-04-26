@@ -3,7 +3,7 @@ const addIt= () =>{
  let result=document.querySelector(".result");
  let checkbox =document.createElement("input");
  let checkboxes=document.querySelector(".checkboxes");
- checkbox.type="checkbox"
+ checkbox.type="checkbox";
  if (userDate!=""){
      let newLi =document.createElement("li");
      let text = document.createTextNode(userDate);

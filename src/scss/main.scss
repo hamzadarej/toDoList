@@ -2,54 +2,45 @@
 
 body {
   @include center;
-   margin: 10% auto;
-    .box {
-        width: 20rem;
-        height: 25rem;
-        background-color: rgb(176, 212, 212);
-        @include center;
-        justify-content: space-evenly;
-        flex-direction: column;
-        font-family: 'Original Surfer', cursive;
-        
-        
-    }
- 
-    
+  margin: 10% auto;
+  .box {
+    width: 20rem;
+    height: 25rem;
+    background-color: rgb(176, 212, 212);
+    @include center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-family: "Original Surfer", cursive;
+  }
 }
-   .results{
-        display: flex;
-        flex-direction: row;
-        height: 18rem;
-        width: 15rem;
-        background-color: blue;
-        justify-content: space-between;
-    }
-    .result {
-        background-color:rgb(247, 237, 229) ;
-        color: black;
-       
-        text-align: center;
-        
-        width: 8rem;
-        
-        flex-direction: column;
-        display: flex;
-        
-        justify-content: center;
-        align-items: flex-start;
-
-        
-    }
-    .checkboxes {
-        
-        width: 2rem;
-        
-        display: flex;
-        justify-content:center;
-        align-items: center;
-        text-align: center;
-        flex-direction: column;
-        text-decoration: none;
-        
-    }
+.results {
+  display: flex;
+  flex-direction: row;
+  height: 18rem;
+  width: 15rem;
+  background-color: rgb(211, 219, 198);
+  justify-content: space-between;
+}
+.result {
+  background-color: rgb(247, 237, 229);
+  color: black;
+  text-align: center;
+  width: 9rem;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.checkboxes {
+  width: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  text-decoration: none;
+  
+}
+.checkbox {
+    background-color: chartreuse;
+}
