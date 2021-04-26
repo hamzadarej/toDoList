@@ -7,19 +7,43 @@ body {
 body .box {
   width: 20rem;
   height: 25rem;
-  background-color: cadetblue;
+  background-color: #b0d4d4;
   display: flex;
   justify-content: center;
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
+  font-family: "Original Surfer", cursive;
 }
-body .result {
-  background-color: wheat;
-  color: black;
-  width: 10rem;
-  text-align: center;
+
+.results {
+  display: flex;
+  flex-direction: row;
   height: 18rem;
+  width: 15rem;
+  background-color: blue;
+  justify-content: space-between;
+}
+
+.result {
+  background-color: #f7ede5;
+  color: black;
+  text-align: center;
+  width: 8rem;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.checkboxes {
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=main.css.map */
