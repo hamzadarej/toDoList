@@ -16,6 +16,10 @@ body .box {
   font-family: "Original Surfer", cursive;
 }
 
+header {
+  color: blue;
+}
+
 .results {
   display: flex;
   flex-direction: row;
@@ -46,8 +50,8 @@ body .box {
   text-decoration: none;
 }
 
-.checkbox {
-  background-color: chartreuse;
+#userDate {
+  border: blue dotted 0.5px;
 }
 
 /*# sourceMappingURL=main.css.map */
