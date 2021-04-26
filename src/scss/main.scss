@@ -19,7 +19,7 @@ header {
 .results {
   display: flex;
   flex-direction: row;
-  height: 20rem;
+  height: 23rem;
   width: 17rem;
   align-items: flex-start;
   justify-content: space-between;
@@ -43,6 +43,7 @@ header {
 
 #userDate {
   border: blue dotted 0.5px;
+
 }
 .completed {
   text-decoration: line-through;
