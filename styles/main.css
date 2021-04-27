@@ -5,21 +5,52 @@ body {
   margin: 10% auto;
 }
 body .box {
-  width: 20rem;
-  height: 25rem;
-  background-color: cadetblue;
+  width: 25rem;
+  height: 32rem;
+  background-color: #b0d4d4;
   display: flex;
   justify-content: center;
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
+  font-family: "Original Surfer", cursive;
 }
-body .result {
-  background-color: wheat;
+
+header {
+  color: blue;
+}
+
+.results {
+  display: flex;
+  flex-direction: row;
+  height: 23rem;
+  width: 17rem;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.result {
+  background-color: #f7ede5;
   color: black;
-  width: 10rem;
   text-align: center;
-  height: 18rem;
+  width: 75%;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  word-wrap: break-word;
+}
+
+.checkboxes {
+  width: 25%;
+}
+
+#userDate {
+  border: blue dotted 0.5px;
+}
+
+.completed {
+  text-decoration: line-through;
 }
 
 /*# sourceMappingURL=main.css.map */

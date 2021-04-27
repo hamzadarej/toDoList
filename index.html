@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>toDoList</title>
     <link rel="stylesheet" href="styles/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="box">
@@ -14,9 +19,14 @@
         <input type="text" name="text" id="userDate" />
         <button onclick="addIt()">Add</button>
       </div>
-     <span class="results"><ol class="result"></ol></span>
-      
+
+      <div class="results">
+        <span class="result">  </span>
+
+        <span class="checkboxes"></span>
+      </div>
     </div>
+
     <script src="script/index.js"></script>
   </body>
 </html>
