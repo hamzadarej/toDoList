@@ -14,23 +14,50 @@ body .box {
   justify-content: space-evenly;
   flex-direction: column;
   font-family: "Original Surfer", cursive;
+  border-radius: 25px;
+  box-shadow: gray 1px 1px 2px 1px;
+  background-image: url(../img/todoFot.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 17%;
+  z-index: 12;
+  position: relative;
+}
+
+.lines {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  background-color: transparent;
+  border: 1px solid gray;
+  border-radius: 20px;
+  top: 10rem;
+}
+
+.kid {
+  width: 15rem;
+  height: 1px;
+  background-color: black;
 }
 
 header {
   color: blue;
+  font-size: x-large;
+  z-index: 2;
 }
 
 .results {
   display: flex;
   flex-direction: row;
-  height: 23rem;
-  width: 17rem;
+  height: 28rem;
+  width: 19rem;
   align-items: flex-start;
   justify-content: space-between;
+  padding-top: 50px;
 }
 
 .result {
-  background-color: #f7ede5;
+  background-color: white;
   color: black;
   text-align: center;
   width: 75%;
@@ -39,14 +66,61 @@ header {
   justify-content: space-between;
   align-items: flex-start;
   word-wrap: break-word;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: x-large;
+  text-shadow: grey 1px 1px 1px;
+}
+
+.inputAbutton {
+  padding: 10px 0px;
+  z-index: 1;
+}
+
+input {
+  height: 5rem;
+  width: 15rem;
+  border-radius: 15px;
+  background-color: transparent;
+  opacity: 0.8;
+}
+
+input:focus {
+  border-radius: 25px;
+  background-color: #c2c27a;
+  font-size: larger;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .checkboxes {
   width: 25%;
+  padding: -2px 5px;
+  text-align: center;
+  z-index: 2;
+}
+
+.checkboxes button {
+  border-radius: 15px;
+  font-size: larger;
+  z-index: 1;
+}
+
+#buttenAdd {
+  border-radius: 10px;
+  border: 1px solid blue;
+  width: 50px;
+  height: 27px;
+}
+
+button:hover {
+  background-color: white;
 }
 
 #userDate {
-  border: blue dotted 0.5px;
+  border: gray dotted 0.5px;
+  border-radius: 15px;
+  box-shadow: gray 1px 1px 1px 1px;
 }
 
 .completed {
