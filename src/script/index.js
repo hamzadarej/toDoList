@@ -43,7 +43,7 @@ const colorGen = () => {
   return result;
 };
 const keyCheck = (e) => {
-  if (e.key == "Enter")addIt();
+  if (e.key == "Enter") addIt();
 };
 const userInput = document.querySelector("#userDate");
 userInput.addEventListener("keypress", keyCheck);
