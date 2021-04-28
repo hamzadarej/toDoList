@@ -2,8 +2,6 @@ const addIt = () => {
   let userDate = document.querySelector("#userDate").value;
   let result = document.querySelector(".result");
 
-  
-
   if (userDate != "") {
     let newLi = document.createElement("li");
     let text = document.createTextNode(userDate);
@@ -24,9 +22,12 @@ const addIt = () => {
       newLi.remove();
       doneButton.remove();
       deleteButton.remove();
-      
     };
     deleteButton.addEventListener("click", del);
+    deleteButton.style.color="red";
+    deleteButton.style.border="red 2px solid";
+    doneButton.style.color="green";
+    doneButton.style.border="green 2px solid";
     doneButton.addEventListener("click", check);
     document.querySelector("#userDate").value = "";
   } else {
