@@ -24,10 +24,10 @@ const addIt = () => {
       deleteButton.remove();
     };
     deleteButton.addEventListener("click", del);
-    deleteButton.style.color="red";
-    deleteButton.style.border="red 2px solid";
-    doneButton.style.color="green";
-    doneButton.style.border="green 2px solid";
+    deleteButton.style.color = "red";
+    deleteButton.style.border = "red 2px solid";
+    doneButton.style.color = "green";
+    doneButton.style.border = "green 2px solid";
     doneButton.addEventListener("click", check);
     document.querySelector("#userDate").value = "";
   } else {
