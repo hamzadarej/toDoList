@@ -42,8 +42,8 @@ const colorGen = () => {
   }
   return result;
 };
-/*const keyCheck = (e) => {
-  if (e.key == "Enter")addToList();
+const keyCheck = (e) => {
+  if (e.key == "Enter")addIt();
 };
 const userInput = document.querySelector("#userDate");
-userInput.addEventListener("keypress", keyCheck);*/
+userInput.addEventListener("keypress", keyCheck);
